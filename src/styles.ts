@@ -1,0 +1,1 @@
+export const navItem = "font-bold text-md hover:text-red"
