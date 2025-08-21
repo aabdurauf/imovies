@@ -4,7 +4,7 @@ import { Logo } from "./"
 
 const Header = () => {
   return (
-    <header className="py-5 px-3">
+    <header className="py-5 px-3 backdrop-blur-xs">
       <div className="flex items-center justify-between">
         <Logo />
         <ul className="flex gap-5">

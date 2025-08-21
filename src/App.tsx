@@ -1,5 +1,4 @@
 import React from "react"
-import './App.css'
 import { Footer, Header } from "./components"
 import { Route, Routes } from "react-router-dom"
 import { Error, Home, Movies, TV } from "./pages"
