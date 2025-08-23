@@ -1,21 +1,21 @@
 import { Link } from "react-router-dom"
-import { navItem } from "../styles"
+import { duration, container, navItem } from "../styles"
 import { Logo } from "./"
 
 const Header = () => {
   return (
-    <header className="py-5 px-3 backdrop-blur-xs">
-      <div className="flex items-center justify-between">
+    <header className="w-screen py-5 px-3 backdrop-blur-xs sticky top-0 z-50">
+      <div className={`${container} flex items-center justify-between`}>
         <Logo />
         <ul className="flex gap-5">
           <li>
-            <Link to="/" className={navItem}>Home</Link>
+            <Link to="/" className={`${duration} ${navItem}`}>Home</Link>
           </li>
           <li>
-            <Link to="/movies" className={navItem}>Movies</Link>
+            <Link to="/movies" className={`${duration} ${navItem}`}>Movies</Link>
           </li>
           <li>
-            <Link to="/tv" className={navItem}>TV Series</Link>
+            <Link to="/tv" className={`${duration} ${navItem}`}>TV Series</Link>
           </li>
         </ul>
       </div>

@@ -1,6 +1,11 @@
+import React from "react"
+import { Hero } from "../components"
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <React.Fragment>
+      <Hero />
+    </React.Fragment>
   )
 }
 
