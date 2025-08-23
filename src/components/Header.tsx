@@ -5,7 +5,7 @@ import { navLinks } from "../utils/constants"
 
 const Header = () => {
   return (
-    <header className="w-screen py-5 px-3 backdrop-blur-xs sticky top-0 z-50">
+    <header className="w-screen py-5 px-3 backdrop-blur-xs fixed top-0 z-50">
       <div className={`${container} flex items-center justify-between`}>
         <Logo />
         <ul className="flex gap-5">
