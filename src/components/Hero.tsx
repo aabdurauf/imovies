@@ -7,7 +7,7 @@ const Hero = ({ movies }: any) => {
       loop={true}
       slidesPerView={1}
       modules={[Autoplay]}
-      className="w-full md:h-screen h-[600px]"
+      className="w-full md:h-screen h-[460px]"
       autoplay={{
         delay: 5000,
         disableOnInteraction: false
