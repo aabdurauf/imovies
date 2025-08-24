@@ -8,7 +8,7 @@ const Header = () => {
     <header className="w-screen py-5 px-3 backdrop-blur-xs fixed top-0 z-50">
       <div className={`${container} flex items-center justify-between`}>
         <Logo />
-        <ul className="flex gap-5">
+        <ul className="sm:flex gap-5 hidden">
           {navLinks.map(navLink => (
             <li key={navLink.title}>
               <Link to={navLink.path} className={`${duration} ${navItem}`}>{navLink.title}</Link>

@@ -1,0 +1,32 @@
+Color Palette
+🌞 Light Mode
+
+Primary (Brand Red): #ff0000
+
+Background: #ffffff (pure white)
+
+Surface / Card: #f8f9fa (very light gray)
+
+Text Primary: #111111 (almost black, high contrast)
+
+Text Secondary: #555555 (muted gray)
+
+Border / Divider: #e5e7eb (soft gray line)
+
+Hover / Active States: #cc0000 (darker red on hover, keeps accessibility)
+
+🌙 Dark Mode
+
+Primary (Brand Red): #ff0000
+
+Background: #0d0d0f (cinema dark, near-black)
+
+Surface / Card: #1a1a1d (slightly lighter dark gray)
+
+Text Primary: #ffffff (white)
+
+Text Secondary: #aaaaaa (soft gray)
+
+Border / Divider: #333333 (subtle gray line)
+
+Hover / Active States: #ff3333 (slightly brighter red for hover in dark mode)

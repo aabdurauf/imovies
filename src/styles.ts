@@ -1,4 +1,4 @@
-export const navItem = "text-md hover:text-[#ff0000] font-ubuntu"
+export const navItem = "text-md hover:text-red font-ubuntu"
 
 export const container = "container mx-auto"
 
