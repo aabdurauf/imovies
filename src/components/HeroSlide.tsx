@@ -1,6 +1,6 @@
 const HeroSlide = () => {
   return (
-    <div className="w-screen h-screen flex items-center justify-center bg-black">
+    <div className="w-full h-full flex items-center justify-center bg-black">
       dwdqwdqwdwqd
     </div>
   )

@@ -1,16 +1,29 @@
-import { Swiper } from "swiper/react"
-import { HeroSlide } from "./"
+import { Autoplay } from "swiper/modules"
+import { Swiper, SwiperSlide } from "swiper/react"
 
-const Hero = () => {
+const Hero = ({ movies }: any) => {
   return (
-    <div className="w-screen h-screen">
-      <Swiper
-        className="w-full h-full"
-        slidesPerView={1}
-      >
-        <HeroSlide />
-      </Swiper>
-    </div>
+    <Swiper
+      loop={true}
+      slidesPerView={1}
+      modules={[Autoplay]}
+      className="w-full lg:h-screen"
+      autoplay={{
+        delay: 5000,
+        disableOnInteraction: false
+      }}
+    >
+      {movies.map((movie: any) => (
+        <SwiperSlide
+          key={movie.id}
+          style={{
+            backgroundImage: `url('https://image.tmdb.org/t/p/original/${movie.backdrop_path}')`,
+            backgroundPosition: "center",
+            backgroundSize: "cover"
+          }}
+        />
+      ))}
+    </Swiper>
   )
 }
 
