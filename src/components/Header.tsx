@@ -2,10 +2,13 @@ import { Link } from "react-router-dom"
 import { duration, container, navItem } from "../styles"
 import { Logo } from "./"
 import { navLinks } from "../utils/constants"
+import { useState } from "react"
 
 const Header = () => {
+  const [scrollY, setScrollY] = useState<number>(0)
+
   return (
-    <header className="w-screen py-5 px-3 backdrop-blur-xs fixed top-0 z-50">
+    <header className="w-screen py-5 px-3 fixed top-0 z-50">
       <div className={`${container} flex items-center justify-between`}>
         <Logo />
         <ul className="sm:flex gap-5 hidden">

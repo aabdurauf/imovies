@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import "swiper/css";
 
+@theme {
+  --color-red: #ff0000
+}
+
 * {
   box-sizing: border-box;
 }

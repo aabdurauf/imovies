@@ -17,5 +17,9 @@ export const footerLinks = [
   {
     title: "Home",
     path: "/"
+  },
+  {
+    title: "About us",
+    path: "/about"
   }
 ]
