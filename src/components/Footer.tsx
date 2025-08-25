@@ -3,7 +3,7 @@ import { footerLinks } from "../utils/constants"
 
 const Footer = () => {
   return (
-    <footer className="py-5">
+    <footer className="py-5 px-3">
       <div className={container}>
         <ul className="w-fit mx-auto">
           {footerLinks.map(link => (
